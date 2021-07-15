@@ -1,2 +1,15 @@
 # MagentoCE_1.9.0.1_Authenticated_RCE
 Magento CE &lt; 1.9.0.1 - (Authenticated) Remote Code Execution
+
+
+# Usage: 
+
+1. Configure config section in exploit.py source code. 
+2. Set up a proxy configuration in config section if you're into that.
+3. Run script `python3 exploit.py http://localhost/admin`
+4. You'll get back a crappy webshell. Use this to get a real reverse shell. You may have to URL encode your commands.
+
+
+
+# Original exploit
+https://www.exploit-db.com/exploits/37811
