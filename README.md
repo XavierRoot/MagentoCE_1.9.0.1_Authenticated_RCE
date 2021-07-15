@@ -10,6 +10,9 @@ Magento CE &lt; 1.9.0.1 - (Authenticated) Remote Code Execution
 4. You'll get back a crappy webshell. Use this to get a real reverse shell. You may have to URL encode your commands.
 
 
+![image](https://user-images.githubusercontent.com/59654121/125708321-fc62a535-08d7-4328-ab90-9832953aaf44.png)
+
+
 
 # Original exploit
 https://www.exploit-db.com/exploits/37811
